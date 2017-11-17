@@ -31,4 +31,13 @@ class Service < ApplicationRecord
   def self.search_by_name(query)
     Service.all.select { |s| s.name.downcase == query.downcase }
   end
+
+  def self.find_or_add(name, url)
+    service = Service.find_by_name(name.downcase.strip)
+    if service
+      service
+    else
+      Service.create(name: name, url: url ? url : "no url yet" )
+    end
+  end
 end
