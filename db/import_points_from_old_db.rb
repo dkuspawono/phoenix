@@ -1,26 +1,56 @@
 require 'json'
 require 'pry'
 
-filepath_services = "../old_db/points/"
-filename = JSON.read(filepath_points)
-
+@arr_errors = []
+@pass = 0
 puts "Importing points..."
-File.readlines(filename).each do |line|
-  imported_point = Point.new(
-    user_id: # go make the script look for the user, if no user, make it default
-    title: line['title'],
-    source: line['discussion'],
-    status: (line['needModeration'] == "true" ? "approved" : "pending"),
-    analysis: line['tldr']
-    rating: line['tosdr']['score'],
+Dir[File.join(Rails.root, "old_db/points/*.json")].each do |json_file|
 
-    service = Service.find_by_name(line['services'])
-    binding.pry
+  hash = JSON.parse(File.read(json_file))
+
+  status = (hash['needModeration'] == "true" ? "approved" : "pending")
+
+  begin
+    unless (Service.find_by(hash['service'])).nil?
+      service = Service.find_by(hash['service'])
+    else
+      service = Service.create(name: hash['service'])
+    end
+  rescue
+    service = Service.new(name: "unknown service")
+  end
+
+  begin
+    unless (Topic.find_by(hash['topics'])).nil?
+      topic = Topic.find_by(hash['topics'])
+    else
+      topic = Topic.create(title: hash['topics'])
+    end
+  rescue
+    topic = Topic.new(title: "unknown topic")
+  end
+
+  imported_point = Point.new(
+    user_id: 1, # go make the script look for the user, if no user, make it default
+    title: hash['title'],
+    source: hash['discussion'],
     service_id: service.id,
-    topic = Topic.find_by_title(line['topics']) #need to import the services first and match it by string
+    status: status,
+    analysis: hash['tldr'] || hash['tosdr']['tldr'] || 'random text',
+    rating: hash['tosdr']['score'] || 5,
     topic_id: topic.id, #need to import topics first and match it by string
     )
-  imported_point.save
+  # binding.pry
+  unless imported_point.valid?
+    @arr_errors << imported_point.title
+    puts "### #{imported_point.title} not imported"
+  else
+    @pass =+ 1
+    imported_point.save
+    puts "#{imported_point.title} imported and saved!"
+  end
 end
 puts "Finishing importing points"
+puts "errors: #{@arr_errors.count}"
+puts "passed: #{@pass}"
 puts "Done!"

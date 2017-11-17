@@ -1,11 +1,12 @@
 require 'json'
 require 'pry'
+require 'uri'
 
 puts "Starting the loop and the import..."
 @arr_errors = []
 Dir[File.join(Rails.root,"old_db/services/*.json")].each do |json_file|
   hash = JSON.parse(File.read(json_file))
-
+  binding.pry
   begin
     unless (hash['fulltos']['terms']['url']).nil?
       url = hash['fulltos']['terms']['url']
@@ -23,7 +24,7 @@ Dir[File.join(Rails.root,"old_db/services/*.json")].each do |json_file|
   imported_service = Service.find_or_add(
     hash['name'],
     url)
-  unless imported_service.valid?
+  unless imported_service.url.scan(URI.regexp)
     puts "### #{imported_service.name} not imported ! ###"
     @arr_errors << imported_service.name
   else
@@ -32,4 +33,4 @@ Dir[File.join(Rails.root,"old_db/services/*.json")].each do |json_file|
   puts "Exiting loop"
 end
 puts "Finishing importing topics!"
-puts @arr_errors
+puts "Returning errors: #{@arr_errors}"
