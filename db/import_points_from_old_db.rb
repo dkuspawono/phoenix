@@ -10,24 +10,20 @@ Dir[File.join(Rails.root, "old_db/points/*.json")].each do |json_file|
 
   status = (hash['needModeration'] == "true" ? "approved" : "pending")
 
-  begin
-    unless (Service.find_by(hash['service'])).nil?
-      service = Service.find_by(hash['service'])
-    else
-      service = Service.create(name: hash['service'])
-    end
-  rescue
-    service = Service.new(name: "unknown service")
+  if Service.find_by(hash['service'])
+    service = Service.find_by(hash['service'])
+  elsif Service.create(name: hash['service'])
+    service = Service.create(name: hash['service'])
+  else
+    service = Service.create(name: hash['unknow service'])
   end
 
-  begin
-    unless (Topic.find_by(hash['topics'])).nil?
-      topic = Topic.find_by(hash['topics'])
-    else
-      topic = Topic.create(title: hash['topics'])
-    end
-  rescue
-    topic = Topic.new(title: "unknown topic")
+  if Topic.find_by(hash['topics'])
+    topic = Topic.find_by(hash['topics'])
+  elsif Topic.create(title: hash['topics'])
+    topic = Topic.create(title: hash['topics'])
+  else
+    topic = Topic.create(name: hash['unknow topic'])
   end
 
   imported_point = Point.new(
@@ -47,6 +43,7 @@ Dir[File.join(Rails.root, "old_db/points/*.json")].each do |json_file|
   else
     @pass =+ 1
     imported_point.save
+    imported_point['title'] = imported_point['title'].downcase
     puts "#{imported_point.title} imported and saved!"
   end
 end

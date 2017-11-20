@@ -14,7 +14,11 @@ Dir[File.join(Rails.root,"old_db/services/*.json")].each do |json_file|
       unless (hash['fulltos']['url']).nil?
         url = hash['fulltos']['url']
       else
-        url = "no url"
+        unless (hash['url']).nil?
+          url = hash['url']
+        else
+          url = "no url"
+        end
       end
     end
   rescue
