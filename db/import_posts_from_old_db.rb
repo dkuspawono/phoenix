@@ -1,6 +1,7 @@
 # in repo root, run:
 # rails runner db/import_posts_from_old_db.rb
 
+
 filename_posts = "old_db/posts.json"
 
 def importPost(data)
