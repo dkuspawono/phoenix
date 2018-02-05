@@ -6,7 +6,9 @@
     "seenthis"
   ],
   "title": "SeenThis: class A ?",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

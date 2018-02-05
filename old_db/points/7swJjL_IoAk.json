@@ -6,7 +6,9 @@
     "amazon"
   ],
   "title": "Amazon's \"Conditions of Use\"",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "irrelevant": true,

@@ -6,7 +6,9 @@
     "joindiaspora-com"
   ],
   "title": "Diaspora Pod Ratings",
-  "topics": [],
+  "topics": [
+
+  ],
   "tosdr": {
     "binding": true,
     "irrelevant": true,
