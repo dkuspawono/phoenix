@@ -1,19 +1,24 @@
 {
-  "id": "writerduet",
-  "name": "writerduet",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://writerduet.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 70932,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Use Agreement",
+      "url": "https://writerduet.com/terms_plain.php"
+    }
   },
+  "id": "writerduet",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "writerduet",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "writerduet.com"
+  ]
 }

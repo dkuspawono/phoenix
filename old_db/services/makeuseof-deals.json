@@ -1,19 +1,25 @@
 {
-  "id": "makeuseof-deals",
-  "name": "makeuseof-deals",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://deals.makeuseof.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 1523,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Service",
+      "url": "https://deals.makeuseof.com/terms"
+    }
   },
+  "id": "makeuseof-deals",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "makeuseof-deals",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "makeuseof.com",
+    "deals.makeuseof.com"
+  ]
 }

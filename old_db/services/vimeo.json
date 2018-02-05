@@ -1,19 +1,24 @@
 {
-  "id": "vimeo",
-  "name": "vimeo",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://vimeo.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 132,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Service",
+      "url": "https://vimeo.com/terms"
+    }
   },
+  "id": "vimeo",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "vimeo",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "vimeo.com"
+  ]
 }

@@ -1,19 +1,24 @@
 {
-  "id": "justpark",
-  "name": "justpark",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://www.justpark.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 94630,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms and conditions",
+      "url": "https://www.justpark.com/overlay/terms-and-conditions/"
+    }
   },
+  "id": "justpark",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "justpark",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "justpark.com"
+  ]
 }

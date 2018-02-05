@@ -1,19 +1,24 @@
 {
-  "id": "creditnerds",
-  "name": "creditnerds",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://creditnerds.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 1000000,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Service",
+      "url": "http://creditnerds.com/terms.php"
+    }
   },
+  "id": "creditnerds",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "creditnerds",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "creditnerds.com"
+  ]
 }

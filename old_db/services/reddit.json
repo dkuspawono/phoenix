@@ -1,19 +1,19 @@
 {
+  "alexa": 6,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "reddit",
-  "name": "reddit",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "reddit",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "reddit.com"
+  ]
 }

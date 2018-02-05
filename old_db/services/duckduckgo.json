@@ -1,20 +1,40 @@
 {
+  "alexa": 331,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "duckduckgo",
-  "name": "duckduckgo",
   "keywords": [
     "search",
     "search engine"
   ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "DuckDuckGo",
   "related": [
     "google"
   ],
-  "urls": [
-    "duckduckgo.com"
-  ],
-  "tosdr": {
-    "rated": "A"
+  "tosback2": {
+    "privacy": {
+      "name": "Privacy Policy",
+      "url": "https://duckduckgo.com/privacy.html"
+    }
   },
-  "meta": {
-    "spec-version": "1.1"
-  }
+  "tosdr": {
+    "keywords": [],
+    "rated": "A",
+    "related": []
+  },
+  "twitter": "@duckduckgo",
+  "type": "service",
+  "url": "duckduckgo.com",
+  "urls": [
+    "duckduckgo.com",
+    "donttrack.us",
+    "spreadprivacy.com",
+    "duckduckhack.com",
+    "privatebrowsingmyths.com",
+    "duck.co",
+    "cispaletter.org"
+  ]
 }

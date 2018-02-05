@@ -1,19 +1,27 @@
 {
-  "id": "hypster",
-  "name": "hypster",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "http://hypster.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 88581,
+  "freesoftware": false,
+  "fulltos": {
+    "privacy": {
+      "url": "http://hypster.com/hypster/PrivacyPolicy"
+    },
+    "terms": {
+      "url": "http://hypster.com/hypster/TermsofService"
+    }
   },
+  "id": "hypster",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "Hypster",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "url": "http://hypster.com",
+  "urls": [
+    "hypster.com"
+  ]
 }

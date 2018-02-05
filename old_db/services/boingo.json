@@ -1,19 +1,20 @@
 {
+  "alexa": 96972,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "boingo",
-  "name": "boingo",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "boingo",
+  "tosdr": {
+    "alexa": 1000000,
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "boingo.com"
+  ]
 }

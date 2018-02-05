@@ -1,19 +1,19 @@
 {
+  "alexa": 1416,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "last.fm",
-  "name": "last.fm",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "last.fm",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "last.fm"
+  ]
 }

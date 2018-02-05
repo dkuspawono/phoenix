@@ -1,19 +1,17 @@
 {
+  "alexa": 513,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "groupon",
   "name": "groupon",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
+  "submittedBy": "RpdnZrLojKeCr4zJQ",
   "tosdr": {
-    "rated": "f"
+    "keywords": [],
+    "rated": false,
+    "related": []
   },
-  "meta": {
-    "spec-version": "1.1"
-  }
+  "type": "service",
+  "urls": [
+    "groupon.com"
+  ]
 }

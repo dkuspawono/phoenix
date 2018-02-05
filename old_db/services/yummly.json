@@ -1,19 +1,24 @@
 {
-  "id": "yummly",
-  "name": "yummly",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://yummly.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 8240,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Service",
+      "url": "http://www.yummly.com/terms"
+    }
   },
+  "id": "yummly",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "yummly",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "yummly.com"
+  ]
 }

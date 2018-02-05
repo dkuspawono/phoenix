@@ -1,19 +1,19 @@
 {
+  "alexa": 229963,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "rapidshare",
-  "name": "rapidshare",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "Rapidshare",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "rapidshare.com"
+  ]
 }

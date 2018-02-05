@@ -1,19 +1,24 @@
 {
-  "id": "twitch",
-  "name": "twitch",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://twitch.tv"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 37,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Service",
+      "url": "http://www.twitch.tv/user/legal?page=terms_of_service"
+    }
   },
+  "id": "twitch",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "twitch",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "twitch.tv"
+  ]
 }

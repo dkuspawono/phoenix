@@ -1,0 +1,19 @@
+{
+  "alexa": 305,
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "zillow",
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "zillow",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "zillow.com"
+  ]
+}

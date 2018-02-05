@@ -1,19 +1,24 @@
 {
-  "id": "ringplus",
-  "name": "ringplus",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://ringplus.net"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 485104,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Legal Notices",
+      "url": "https://ringplus.net/legal/members/"
+    }
   },
+  "id": "ringplus",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "ringplus",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "ringplus.net"
+  ]
 }

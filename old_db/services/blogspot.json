@@ -1,0 +1,19 @@
+{
+  "alexa": 70,
+  "freesoftware": false,
+  "fulltos": {},
+  "id": "blogspot",
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "blogspot",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "blogspot.com"
+  ]
+}

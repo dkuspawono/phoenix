@@ -1,19 +1,20 @@
 {
+  "alexa": 47,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "microsoft-store",
-  "name": "microsoft store",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "Microsoft Store",
+  "tosdr": {
+    "alexa": 1000000,
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "microsoft.com"
+  ]
 }

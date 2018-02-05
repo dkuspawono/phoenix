@@ -1,19 +1,29 @@
 {
+  "alexa": 504997,
+  "freesoftware": true,
+  "fulltos": {},
   "id": "kolabnow",
-  "name": "kolab now",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "kolabnow.com"
-  ],
-  "tosdr": {
-    "rated": "A"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "Kolab Now",
+  "tosdr": {
+    "keywords": [
+      "email",
+      "groupware",
+      "calendar",
+      "contacts",
+      "cloud"
+    ],
+    "rated": "A",
+    "related": [
+      "google"
+    ]
+  },
+  "twitter": "@mykolabcom",
+  "type": "service",
+  "urls": [
+    "kolabnow.com",
+    "kolab.org"
+  ]
 }

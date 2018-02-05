@@ -1,19 +1,19 @@
 {
+  "alexa": 4787,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "nokia",
-  "name": "nokia",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "nokia",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "nokia.com"
+  ]
 }

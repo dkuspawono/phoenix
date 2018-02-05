@@ -1,19 +1,19 @@
 {
+  "alexa": 67,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "whatsapp",
-  "name": "whatsapp",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "WhatsApp",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "whatsapp.com"
+  ]
 }

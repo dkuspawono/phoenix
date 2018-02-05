@@ -1,19 +1,19 @@
 {
+  "alexa": 199,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "indeed.com",
-  "name": "indeed.com",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "indeed.com",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "indeed.com"
+  ]
 }

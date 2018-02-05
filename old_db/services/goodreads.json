@@ -1,19 +1,20 @@
 {
+  "alexa": 310,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "goodreads",
-  "name": "goodreads",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "goodreads",
+  "tosdr": {
+    "alexa": 1000000,
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "goodreads.com"
+  ]
 }

@@ -1,19 +1,19 @@
 {
+  "alexa": 272,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "livejournal",
-  "name": "livejournal",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "livejournal",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "livejournal.com"
+  ]
 }

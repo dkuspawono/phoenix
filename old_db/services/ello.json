@@ -1,19 +1,24 @@
 {
-  "id": "ello",
-  "name": "ello",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://ello.co"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 43737,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Use",
+      "url": "https://ello.co/wtf/policies/terms-of-use/"
+    }
   },
+  "id": "ello",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "ello",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "ello.co"
+  ]
 }

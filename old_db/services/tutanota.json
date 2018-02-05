@@ -1,19 +1,24 @@
 {
-  "id": "tutanota",
-  "name": "tutanota",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://tutanota.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 20713,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms and Conditions",
+      "url": "https://tutanota.com/terms"
+    }
   },
+  "id": "tutanota",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "tutanota",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "tutanota.com"
+  ]
 }

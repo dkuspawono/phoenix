@@ -1,19 +1,19 @@
 {
+  "alexa": 133,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "stackexchange",
-  "name": "stackexchange",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "stackexchange",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "stackexchange.com"
+  ]
 }

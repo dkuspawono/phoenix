@@ -1,19 +1,19 @@
 {
+  "alexa": 40,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "ebay",
-  "name": "ebay",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "ebay",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "ebay.com"
+  ]
 }

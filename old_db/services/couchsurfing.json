@@ -1,19 +1,24 @@
 {
-  "id": "couchsurfing",
-  "name": "couchsurfing",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://www.couchsurfing.org/"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 219946,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "url": "https://www.couchsurfing.org/terms.html?locale=en_US"
+    }
   },
+  "id": "couchsurfing",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "couchsurfing",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "url": "https://www.couchsurfing.org/",
+  "urls": [
+    "couchsurfing.org"
+  ]
 }

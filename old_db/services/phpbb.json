@@ -1,19 +1,27 @@
 {
+  "alexa": 50975,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "url": "https://www.phpbb.com/community/ucp.php?mode=register"
+    }
+  },
   "id": "phpbb",
-  "name": "phpbb",
-  "keywords": [
-
-  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "phpBB",
   "related": [
     "vbulletin"
   ],
-  "urls": [
-    "https://www.phpbb.com"
-  ],
   "tosdr": {
-    "rated": "f"
+    "keywords": [],
+    "rated": false,
+    "related": []
   },
-  "meta": {
-    "spec-version": "1.1"
-  }
+  "type": "service",
+  "url": "https://www.phpbb.com",
+  "urls": [
+    "phpbb.com"
+  ]
 }

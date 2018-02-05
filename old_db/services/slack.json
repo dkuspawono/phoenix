@@ -1,19 +1,24 @@
 {
-  "id": "slack",
-  "name": "slack",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://slack.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 275,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Customer Terms of Service",
+      "url": "https://slack.com/terms-of-service"
+    }
   },
+  "id": "slack",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "slack",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "slack.com"
+  ]
 }

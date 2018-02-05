@@ -1,19 +1,30 @@
 {
+  "alexa": 103395,
+  "freesoftware": false,
+  "fulltos": {
+    "privacy": {
+      "url": "http://www.internetbrands.com/privacy/privacy-highlights.html?site=www.vbulletin.com"
+    },
+    "terms": {
+      "url": "http://www.vbulletin.com/terms"
+    }
+  },
   "id": "vbulletin",
-  "name": "vbulletin",
-  "keywords": [
-
-  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "vBulletin",
   "related": [
     "phpbb"
   ],
-  "urls": [
-    "http://www.vbulletin.com"
-  ],
   "tosdr": {
-    "rated": "f"
+    "keywords": [],
+    "rated": false,
+    "related": []
   },
-  "meta": {
-    "spec-version": "1.1"
-  }
+  "type": "service",
+  "url": "http://www.vbulletin.com",
+  "urls": [
+    "vbulletin.com"
+  ]
 }

@@ -1,19 +1,19 @@
 {
+  "alexa": 95524,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "reputation.com",
-  "name": "reputation.com",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "reputation.com",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "reputation.com"
+  ]
 }

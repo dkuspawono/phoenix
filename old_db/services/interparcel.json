@@ -1,19 +1,19 @@
 {
+  "alexa": 101475,
+  "freesoftware": false,
+  "fulltos": {},
   "id": "interparcel",
-  "name": "interparcel",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "url"
-  ],
-  "tosdr": {
-    "rated": "f"
-  },
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "interparcel",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "interparcel.com"
+  ]
 }

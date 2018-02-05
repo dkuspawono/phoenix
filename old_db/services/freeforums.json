@@ -1,19 +1,30 @@
 {
+  "alexa": 787377,
+  "freesoftware": false,
+  "fulltos": {
+    "privacy": {
+      "url": "http://www.crowdgather.com/privacy"
+    },
+    "terms": {
+      "url": "http://www.crowdgather.com/legal"
+    }
+  },
   "id": "freeforums",
-  "name": "freeforums",
-  "keywords": [
-
-  ],
+  "meta": {
+    "spec-version": "1.1"
+  },
+  "name": "Freeforums",
   "related": [
     "phpbb"
   ],
-  "urls": [
-    "http://www.freeforums.org"
-  ],
   "tosdr": {
-    "rated": "f"
+    "keywords": [],
+    "rated": false,
+    "related": []
   },
-  "meta": {
-    "spec-version": "1.1"
-  }
+  "type": "service",
+  "url": "http://www.freeforums.org",
+  "urls": [
+    "freeforums.org"
+  ]
 }

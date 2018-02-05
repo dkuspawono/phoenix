@@ -1,19 +1,24 @@
 {
-  "id": "uber",
-  "name": "uber",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://uber.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 1124,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "U.S. Terms of Use",
+      "url": "https://www.uber.com/legal/terms/us/"
+    }
   },
+  "id": "uber",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "uber",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "uber.com"
+  ]
 }

@@ -1,19 +1,24 @@
 {
-  "id": "diigo",
-  "name": "diigo",
-  "keywords": [
-
-  ],
-  "related": [
-
-  ],
-  "urls": [
-    "https://diigo.com"
-  ],
-  "tosdr": {
-    "rated": "f"
+  "alexa": 11234,
+  "freesoftware": false,
+  "fulltos": {
+    "terms": {
+      "name": "Terms of Use Agreement",
+      "url": "https://www.diigo.com/terms"
+    }
   },
+  "id": "diigo",
   "meta": {
     "spec-version": "1.1"
-  }
+  },
+  "name": "diigo",
+  "tosdr": {
+    "keywords": [],
+    "rated": false,
+    "related": []
+  },
+  "type": "service",
+  "urls": [
+    "diigo.com"
+  ]
 }
