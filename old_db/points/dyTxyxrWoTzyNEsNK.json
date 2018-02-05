@@ -15,7 +15,7 @@
   ],
   "tosdr": {
     "binding": true,
-    "point": "bad",
+    "case": "Device fingerprinting",
     "sources": [
       "https://www.groupon.com/privacy"
     ],
